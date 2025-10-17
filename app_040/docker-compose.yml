@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8040:8000"
+    environment:
+      - DEBUG=True
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3040:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8040
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: app040
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5472:5432"
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6419:6379"

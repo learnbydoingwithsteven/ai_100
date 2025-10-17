@@ -1,0 +1,23 @@
+# AI Application 88
+
+## Overview
+AI application using ML
+
+## Quick Start
+```bash
+docker-compose up
+```
+
+## API
+- Frontend: http://localhost:3088
+- Backend: http://localhost:8088
+- API Docs: http://localhost:8088/docs
+
+## Technology
+- **Domain**: General
+- **Algorithm**: ML
+- **Frontend**: React + TypeScript
+- **Backend**: FastAPI + Python
+
+## License
+MIT
