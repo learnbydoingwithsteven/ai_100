@@ -1,23 +1,34 @@
-# Skin Lesion Classifier
+# 🔬 Skin Lesion Classifier AI
 
 ## Overview
-Melanoma detection using CNN
+AI-powered assistant for early melanoma detection using the ABCD rule (Asymmetry, Border, Color, Diameter). Features a Dermatologist AI Agent for educational guidance.
 
-## Quick Start
+## 🏗️ Architecture
+- **Frontend**: React 18 + Vite (Port 3005)
+- **Backend**: FastAPI + Python (Port 8005)
+- **AI Engine**: Rule-based ABCD Heuristic + Ollama (qwen2.5) for detailed analysis.
+
+## 🚀 Quick Start
+
+### 1. Backend
 ```bash
-docker-compose up
+cd backend
+pip install -r requirements.txt
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8005 --reload
 ```
 
-## API
-- Frontend: http://localhost:3005
-- Backend: http://localhost:8005
-- API Docs: http://localhost:8005/docs
+### 2. Frontend
+```bash
+cd frontend
+npm install
+npm run dev -- --port 3005
+```
 
-## Technology
-- **Domain**: Healthcare
-- **Algorithm**: CNN
-- **Frontend**: React + TypeScript
-- **Backend**: FastAPI + Python
+## 📊 Features
+- **ABCD Assessment**: Interactive sliders for Asymmetry, Border, Color, Diameter.
+- **Risk Classification**: Benign/Suspicious/Malignant.
+- **Dermatologist Report**: AI-generated interpretation of findings.
+- **Visuals**: Probability distribution charts.
 
-## License
-MIT
+## 📸 Screenshots
+*(Coming soon via automated testing)*

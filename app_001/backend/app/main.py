@@ -11,6 +11,9 @@ import numpy as np
 import logging
 from datetime import datetime
 import asyncio
+from app.ml.llm import MedicalAssistant
+
+llm_assistant = MedicalAssistant()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -52,6 +55,15 @@ class MetricsResponse(BaseModel):
     recall: float
     f1_score: float
     confusion_matrix: List[List[int]]
+
+class AnalysisRequest(BaseModel):
+    prediction: str
+    confidence: float
+    probabilities: Dict[str, float]
+    patient_data: Optional[Dict] = None
+
+class AnalysisResponse(BaseModel):
+    analysis: str
 
 # Mock ML Model
 class MedicalImageModel:
@@ -143,3 +155,17 @@ async def upload_image(file: UploadFile = File(...)):
         "size": len(contents),
         "status": "uploaded"
     }
+
+@app.post("/api/v1/analyze", response_model=AnalysisResponse)
+async def analyze_prediction(request: AnalysisRequest):
+    try:
+        analysis = llm_assistant.analyze_prediction({
+            "prediction": request.prediction,
+            "confidence": request.confidence,
+            "probabilities": request.probabilities,
+            "patient_data": request.patient_data
+        })
+        return AnalysisResponse(analysis=analysis)
+    except Exception as e:
+        logger.error(f"Analysis error: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement } from 'chart.js';
 import { Pie, Bar } from 'react-chartjs-2';
@@ -6,7 +6,7 @@ import './App.css';
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 interface PredictionResult {
   prediction: string;
@@ -26,8 +26,13 @@ interface Metrics {
 
 function App() {
   const [inputData, setInputData] = useState<string>('');
+  const [age, setAge] = useState<string>('');
+  const [gender, setGender] = useState<string>('Male');
+  const [symptoms, setSymptoms] = useState<string>('');
   const [prediction, setPrediction] = useState<PredictionResult | null>(null);
   const [metrics, setMetrics] = useState<Metrics | null>(null);
+  const [analysis, setAnalysis] = useState<string>('');
+  const [analyzing, setAnalyzing] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string>('');
 
@@ -35,14 +40,15 @@ function App() {
     try {
       setLoading(true);
       setError('');
-      
+      setAnalysis('');
+
       const data = inputData.split(',').map(x => parseFloat(x.trim()));
-      
+
       const response = await axios.post(`${API_URL}/api/v1/predict`, {
         data,
         confidence_threshold: 0.5
       });
-      
+
       setPrediction(response.data);
     } catch (err: any) {
       setError(err.response?.data?.detail || 'Prediction failed');
@@ -57,6 +63,25 @@ function App() {
       setMetrics(response.data);
     } catch (err: any) {
       setError('Failed to load metrics');
+    }
+  };
+
+  const handleAnalyze = async () => {
+    if (!prediction) return;
+    try {
+      setAnalyzing(true);
+      const response = await axios.post(`${API_URL}/api/v1/analyze`, {
+        prediction: prediction.prediction,
+        confidence: prediction.confidence,
+        probabilities: prediction.probabilities,
+        patient_data: { age, gender, symptoms }
+      });
+
+      setAnalysis(response.data.analysis);
+    } catch (err) {
+      setError('Analysis failed');
+    } finally {
+      setAnalyzing(false);
     }
   };
 
@@ -95,10 +120,50 @@ function App() {
             <h2 className="text-2xl font-bold mb-6 text-gray-800">
               Make Prediction
             </h2>
-            
+
+            <h2 className="text-2xl font-bold mb-6 text-gray-800">
+              Patient Data
+            </h2>
+
+            <div className="grid grid-cols-2 gap-4 mb-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">Age</label>
+                <input
+                  type="number"
+                  value={age}
+                  onChange={(e) => setAge(e.target.value)}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg"
+                  placeholder="e.g. 45"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">Gender</label>
+                <select
+                  value={gender}
+                  onChange={(e) => setGender(e.target.value)}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg"
+                >
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div className="mb-4">
+              <label className="block text-sm font-medium text-gray-700 mb-2">Symptoms</label>
+              <textarea
+                value={symptoms}
+                onChange={(e) => setSymptoms(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg"
+                placeholder="Describe symptoms..."
+                rows={2}
+              />
+            </div>
+
             <div className="mb-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Input Data (comma-separated values)
+                Image Features (Simulated)
               </label>
               <textarea
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -129,11 +194,10 @@ function App() {
                 <div className="space-y-2">
                   <p className="text-lg">
                     <span className="font-semibold">Diagnosis:</span>{' '}
-                    <span className={`font-bold ${
-                      prediction.prediction === 'Normal' ? 'text-green-600' :
+                    <span className={`font-bold ${prediction.prediction === 'Normal' ? 'text-green-600' :
                       prediction.prediction === 'Abnormal' ? 'text-yellow-600' :
-                      'text-red-600'
-                    }`}>
+                        'text-red-600'
+                      }`}>
                       {prediction.prediction}
                     </span>
                   </p>
@@ -153,6 +217,28 @@ function App() {
                     <div className="w-64 mx-auto">
                       <Pie data={pieData} />
                     </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+
+            {prediction && (
+              <div className="mt-6 pt-6 border-t border-gray-100">
+                <button
+                  onClick={handleAnalyze}
+                  disabled={analyzing}
+                  className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200 disabled:opacity-50"
+                >
+                  {analyzing ? 'Generating Consultant Report...' : '🔍 Generate AI Report'}
+                </button>
+
+                {analysis && (
+                  <div className="mt-4 p-4 bg-purple-50 rounded-lg border border-purple-100">
+                    <h4 className="font-bold text-purple-900 mb-2">AI Consultant Report</h4>
+                    <p className="text-gray-800 text-sm leading-relaxed whitespace-pre-wrap">
+                      {analysis}
+                    </p>
                   </div>
                 )}
               </div>
