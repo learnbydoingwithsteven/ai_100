@@ -1,0 +1,55 @@
+﻿{
+    "$schema":  "../project.meta.schema.json",
+    "schemaVersion":  1,
+    "name":  "ai_100",
+    "title":  "100 AI Applications - Full-Stack Collection",
+    "kind":  "git-repository",
+    "status":  "unknown",
+    "category":  "learning-lab",
+    "description":  "A collection of 100 full-stack and script-level AI applications, illustrating key concepts in machine learning, neural networks, and generative AI.",
+    "tags":  [
+                 "learning-lab",
+                 "ai",
+                 "course"
+             ],
+    "priority":  "unset",
+    "owner":  "",
+    "paths":  {
+                  "relative":  "ai_100",
+                  "absolute":  "F:\\learnbydoingwithsteven\\ai_100"
+              },
+    "repo":  {
+                 "hasGit":  true,
+                 "remote":  "https://github.com/learnbydoingwithsteven/ai_100.git"
+             },
+    "stack":  [
+                  "python"
+              ],
+    "entrypoints":  {
+                        "readme":  "README.md"
+                    },
+    "signals":  {
+                    "hasReadme":  true,
+                    "hasPackageJson":  false,
+                    "hasIndexHtml":  false,
+                    "hasViteConfig":  false,
+                    "hasNextConfig":  false,
+                    "hasPython":  true,
+                    "hasNotebooks":  false
+                },
+    "children":  {
+                     "count":  101,
+                     "immediateProjectSignalCount":  101
+                 },
+    "activity":  {
+                     "lastModifiedLocal":  "2026-05-11T22:40:13",
+                     "inferredActivity":  "hot"
+                 },
+    "notes":  "",
+    "metadata":  {
+                     "generated":  true,
+                     "generatedAt":  "2026-05-23T10:55:25Z",
+                     "generatedBy":  "tools/update_project_metadata.ps1",
+                     "confidence":  "inferred"
+                 }
+}
