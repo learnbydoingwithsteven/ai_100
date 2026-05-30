@@ -1,26 +1,24 @@
 ﻿{
-    "$schema":  "../project.meta.schema.json",
+    "$schema":  "../../project.meta.schema.json",
     "schemaVersion":  1,
-    "name":  "ai_100",
-    "title":  "100 AI Applications - Full-Stack Collection",
-    "kind":  "git-repository",
+    "name":  "app_064",
+    "title":  "AI Application 64",
+    "kind":  "project-folder",
     "status":  "unknown",
-    "category":  "learning-lab",
-    "description":  "A collection of 100 full-stack and script-level AI applications, illustrating key concepts in machine learning, neural networks, and generative AI.",
+    "category":  "workspace-folder",
+    "description":  "",
     "tags":  [
-                 "learning-lab",
-                 "ai",
-                 "course"
+                 "workspace-folder"
              ],
     "priority":  "unset",
     "owner":  "",
     "paths":  {
-                  "relative":  "ai_100",
-                  "absolute":  "F:\\learnbydoingwithsteven\\ai_100"
+                  "relative":  "ai_100/app_064",
+                  "absolute":  "F:\\learnbydoingwithsteven\\ai_100\\app_064"
               },
     "repo":  {
-                 "hasGit":  true,
-                 "remote":  "https://github.com/learnbydoingwithsteven/ai_100.git"
+                 "hasGit":  false,
+                 "remote":  null
              },
     "stack":  [
                   "python"
@@ -38,17 +36,17 @@
                     "hasNotebooks":  false
                 },
     "children":  {
-                     "count":  101,
-                     "immediateProjectSignalCount":  101
+                     "count":  3,
+                     "immediateProjectSignalCount":  1
                  },
     "activity":  {
-                     "lastModifiedLocal":  "2026-05-11T22:40:13",
+                     "lastModifiedLocal":  "2026-05-11T22:40:09",
                      "inferredActivity":  "hot"
                  },
     "notes":  "",
     "metadata":  {
                      "generated":  true,
-                     "generatedAt":  "2026-05-30T03:48:38Z",
+                     "generatedAt":  "2026-05-30T03:48:04Z",
                      "generatedBy":  "tools/update_project_metadata.ps1",
                      "confidence":  "inferred"
                  }

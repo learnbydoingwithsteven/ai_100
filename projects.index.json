@@ -1,0 +1,1636 @@
+﻿{
+    "schemaVersion":  1,
+    "generatedAt":  "2026-05-30T03:48:04Z",
+    "generatedBy":  "tools/update_project_metadata.ps1",
+    "workspace":  {
+                      "root":  "F:\\learnbydoingwithsteven",
+                      "scopeRoot":  "F:\\learnbydoingwithsteven\\ai_100",
+                      "scopeRelativePath":  "ai_100",
+                      "folderCount":  101
+                  },
+    "totals":  {
+                   "gitRepositories":  0,
+                   "projectFolders":  100,
+                   "workspaceFolders":  1,
+                   "archiveOrOutput":  0
+               },
+    "projects":  [
+                     {
+                         "name":  "app_001",
+                         "title":  "Medical Image Diagnosis - Full-Stack Application",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_001",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_002",
+                         "title":  "Drug Discovery Predictor",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_002",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_003",
+                         "title":  "Patient Risk Stratification AI",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_003",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_004",
+                         "title":  "Diabetes Progression AI",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_004",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_005",
+                         "title":  "Skin Lesion Classifier AI",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_005",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_006",
+                         "title":  "AI Application 6",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_006",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_007",
+                         "title":  "AI Application 7",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_007",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_008",
+                         "title":  "AI Application 8",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_008",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_009",
+                         "title":  "AI Application 9",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_009",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_010",
+                         "title":  "AI Application 10",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_010",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_011",
+                         "title":  "AI Application 11",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_011",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_012",
+                         "title":  "AI Application 12",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_012",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_013",
+                         "title":  "AI Application 13",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_013",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_014",
+                         "title":  "AI Application 14",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_014",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_015",
+                         "title":  "AI Application 15",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_015",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_016",
+                         "title":  "AI Application 16",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_016",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_017",
+                         "title":  "AI Application 17",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_017",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_018",
+                         "title":  "AI Application 18",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_018",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_019",
+                         "title":  "AI Application 19",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_019",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_020",
+                         "title":  "AI Application 20",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_020",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_021",
+                         "title":  "AI Application 21",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_021",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_022",
+                         "title":  "AI Application 22",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_022",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_023",
+                         "title":  "AI Application 23",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_023",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_024",
+                         "title":  "AI Application 24",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_024",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_025",
+                         "title":  "AI Application 25",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_025",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_026",
+                         "title":  "AI Application 26",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_026",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_027",
+                         "title":  "AI Application 27",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_027",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_028",
+                         "title":  "AI Application 28",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_028",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_029",
+                         "title":  "AI Application 29",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_029",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_030",
+                         "title":  "AI Application 30",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_030",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_031",
+                         "title":  "AI Application 31",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_031",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_032",
+                         "title":  "AI Application 32",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_032",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_033",
+                         "title":  "AI Application 33",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_033",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_034",
+                         "title":  "AI Application 34",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_034",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_035",
+                         "title":  "AI Application 35",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_035",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_036",
+                         "title":  "AI Application 36",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_036",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_037",
+                         "title":  "AI Application 37",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_037",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_038",
+                         "title":  "AI Application 38",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_038",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_039",
+                         "title":  "AI Application 39",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_039",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_040",
+                         "title":  "AI Application 40",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_040",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_041",
+                         "title":  "AI Application 41",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_041",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_042",
+                         "title":  "AI Application 42",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_042",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_043",
+                         "title":  "AI Application 43",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_043",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_044",
+                         "title":  "AI Application 44",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_044",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_045",
+                         "title":  "AI Application 45",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_045",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_046",
+                         "title":  "AI Application 46",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_046",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_047",
+                         "title":  "AI Application 47",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_047",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_048",
+                         "title":  "AI Application 48",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_048",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_049",
+                         "title":  "AI Application 49",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_049",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_050",
+                         "title":  "AI Application 50",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_050",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_051",
+                         "title":  "AI Application 51",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_051",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_052",
+                         "title":  "AI Application 52",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_052",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_053",
+                         "title":  "AI Application 53",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_053",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_054",
+                         "title":  "AI Application 54",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_054",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_055",
+                         "title":  "AI Application 55",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_055",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_056",
+                         "title":  "AI Application 56",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_056",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_057",
+                         "title":  "AI Application 57",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_057",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_058",
+                         "title":  "AI Application 58",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_058",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_059",
+                         "title":  "AI Application 59",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_059",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_060",
+                         "title":  "AI Application 60",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_060",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_061",
+                         "title":  "AI Application 61",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_061",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_062",
+                         "title":  "AI Application 62",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_062",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_063",
+                         "title":  "AI Application 63",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_063",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_064",
+                         "title":  "AI Application 64",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_064",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_065",
+                         "title":  "AI Application 65",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_065",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_066",
+                         "title":  "AI Application 66",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_066",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_067",
+                         "title":  "AI Application 67",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_067",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_068",
+                         "title":  "AI Application 68",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_068",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_069",
+                         "title":  "AI Application 69",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_069",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_070",
+                         "title":  "AI Application 70",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_070",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_071",
+                         "title":  "AI Application 71",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_071",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_072",
+                         "title":  "AI Application 72",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_072",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_073",
+                         "title":  "AI Application 73",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_073",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_074",
+                         "title":  "AI Application 74",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_074",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_075",
+                         "title":  "AI Application 75",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_075",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_076",
+                         "title":  "AI Application 76",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_076",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_077",
+                         "title":  "AI Application 77",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_077",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_078",
+                         "title":  "AI Application 78",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_078",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_079",
+                         "title":  "AI Application 79",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_079",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_080",
+                         "title":  "AI Application 80",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_080",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_081",
+                         "title":  "AI Application 81",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_081",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_082",
+                         "title":  "AI Application 82",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_082",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_083",
+                         "title":  "AI Application 83",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_083",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_084",
+                         "title":  "AI Application 84",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_084",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_085",
+                         "title":  "AI Application 85",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_085",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_086",
+                         "title":  "AI Application 86",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_086",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_087",
+                         "title":  "AI Application 87",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_087",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_088",
+                         "title":  "AI Application 88",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_088",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_089",
+                         "title":  "AI Application 89",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_089",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_090",
+                         "title":  "AI Application 90",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_090",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_091",
+                         "title":  "AI Application 91",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_091",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_092",
+                         "title":  "AI Application 92",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_092",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_093",
+                         "title":  "AI Application 93",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_093",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_094",
+                         "title":  "AI Application 94",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_094",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_095",
+                         "title":  "AI Application 95",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_095",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_096",
+                         "title":  "AI Application 96",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_096",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_097",
+                         "title":  "AI Application 97",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_097",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_098",
+                         "title":  "AI Application 98",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_098",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_099",
+                         "title":  "AI Application 99",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/app_099",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "app_100",
+                         "title":  "AI Application 100",
+                         "kind":  "project-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder",
+                                      "course"
+                                  ],
+                         "relativePath":  "ai_100/app_100",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  1,
+                         "inferredActivity":  "hot"
+                     },
+                     {
+                         "name":  "templates",
+                         "title":  "Templates",
+                         "kind":  "workspace-folder",
+                         "status":  "unknown",
+                         "category":  "workspace-folder",
+                         "tags":  [
+                                      "workspace-folder"
+                                  ],
+                         "relativePath":  "ai_100/templates",
+                         "stack":  [
+                                       "python"
+                                   ],
+                         "childProjectSignals":  0,
+                         "inferredActivity":  "hot"
+                     }
+                 ]
+}

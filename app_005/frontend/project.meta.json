@@ -1,0 +1,58 @@
+﻿{
+    "$schema":  "../../../project.meta.schema.json",
+    "schemaVersion":  1,
+    "name":  "frontend",
+    "title":  "Frontend",
+    "kind":  "project-folder",
+    "status":  "unknown",
+    "category":  "web-product",
+    "description":  "",
+    "tags":  [
+                 "web-product",
+                 "web"
+             ],
+    "priority":  "unset",
+    "owner":  "",
+    "paths":  {
+                  "relative":  "ai_100/app_005/frontend",
+                  "absolute":  "F:\\learnbydoingwithsteven\\ai_100\\app_005\\frontend"
+              },
+    "repo":  {
+                 "hasGit":  false,
+                 "remote":  null
+             },
+    "stack":  [
+                  "node",
+                  "vite",
+                  "static-html"
+              ],
+    "entrypoints":  {
+                        "package":  "package.json",
+                        "web":  "index.html",
+                        "viteConfig":  "vite.config.ts"
+                    },
+    "signals":  {
+                    "hasReadme":  false,
+                    "hasPackageJson":  true,
+                    "hasIndexHtml":  true,
+                    "hasViteConfig":  true,
+                    "hasNextConfig":  false,
+                    "hasPython":  false,
+                    "hasNotebooks":  false
+                },
+    "children":  {
+                     "count":  3,
+                     "immediateProjectSignalCount":  0
+                 },
+    "activity":  {
+                     "lastModifiedLocal":  "2026-01-16T22:29:43",
+                     "inferredActivity":  "warm"
+                 },
+    "notes":  "",
+    "metadata":  {
+                     "generated":  true,
+                     "generatedAt":  "2026-05-30T04:02:55Z",
+                     "generatedBy":  "tools/update_project_metadata.ps1",
+                     "confidence":  "inferred"
+                 }
+}

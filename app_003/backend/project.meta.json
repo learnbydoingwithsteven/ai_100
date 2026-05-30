@@ -1,0 +1,53 @@
+﻿{
+    "$schema":  "../../../project.meta.schema.json",
+    "schemaVersion":  1,
+    "name":  "backend",
+    "title":  "Backend",
+    "kind":  "workspace-folder",
+    "status":  "unknown",
+    "category":  "workspace-folder",
+    "description":  "",
+    "tags":  [
+                 "workspace-folder"
+             ],
+    "priority":  "unset",
+    "owner":  "",
+    "paths":  {
+                  "relative":  "ai_100/app_003/backend",
+                  "absolute":  "F:\\learnbydoingwithsteven\\ai_100\\app_003\\backend"
+              },
+    "repo":  {
+                 "hasGit":  false,
+                 "remote":  null
+             },
+    "stack":  [
+                  "python"
+              ],
+    "entrypoints":  {
+
+                    },
+    "signals":  {
+                    "hasReadme":  false,
+                    "hasPackageJson":  false,
+                    "hasIndexHtml":  false,
+                    "hasViteConfig":  false,
+                    "hasNextConfig":  false,
+                    "hasPython":  true,
+                    "hasNotebooks":  false
+                },
+    "children":  {
+                     "count":  2,
+                     "immediateProjectSignalCount":  0
+                 },
+    "activity":  {
+                     "lastModifiedLocal":  "2025-11-05T11:06:35",
+                     "inferredActivity":  "warm"
+                 },
+    "notes":  "",
+    "metadata":  {
+                     "generated":  true,
+                     "generatedAt":  "2026-05-30T04:02:55Z",
+                     "generatedBy":  "tools/update_project_metadata.ps1",
+                     "confidence":  "inferred"
+                 }
+}
